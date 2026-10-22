@@ -1,0 +1,23 @@
+MEU CHECKLIST — PWA instalável
+
+ARQUIVOS
+- index.html: interface e lógica do app
+- manifest.webmanifest: configuração de instalação
+- sw.js: cache para abrir offline depois da primeira visita
+- icons/: ícones do app
+
+PUBLICAR GRATUITAMENTE COM GITHUB PAGES
+1. Entre em https://github.com/ pelo Chrome e crie uma conta ou entre na sua conta.
+2. Crie um repositório novo chamado meu-checklist. Para o caminho mais simples, marque Public (público). Não coloque dados pessoais no repositório.
+3. Abra o repositório e use Add file > Upload files.
+4. Extraia este ZIP no celular primeiro. Envie os arquivos index.html, manifest.webmanifest e sw.js, além da pasta icons com os três ícones. Se o site não permitir enviar a pasta pelo celular, abra o GitHub em um computador ou me diga em qual tela ficou preso para eu orientar.
+5. Toque em Commit changes para salvar os arquivos na raiz do repositório (index.html deve ficar na raiz, não dentro de outra pasta).
+6. No repositório, abra Settings > Pages. Em Build and deployment, escolha Deploy from a branch. Selecione a branch main e a pasta /(root), depois Save.
+7. Aguarde o GitHub Pages publicar. O endereço normalmente será https://SEU-USUARIO.github.io/meu-checklist/ (troque SEU-USUARIO pelo seu nome de usuário no GitHub). Use o link que aparece em Settings > Pages como endereço oficial.
+8. No Android, abra esse endereço no Chrome, espere carregar uma vez com internet e abra o menu ⋮. Escolha Instalar app ou Adicionar à tela inicial.
+9. Abra o ícone instalado e teste adicionar, editar, concluir e excluir uma tarefa. Depois, com o app já carregado, desligue a internet e abra de novo para conferir o offline.
+
+OBSERVAÇÕES IMPORTANTES
+- O repositório público contém o código do app; não contém as tarefas que você cadastrar. As tarefas ficam no armazenamento local do navegador/aplicativo.
+- Não limpe os dados do Chrome/app sem antes exportar uma cópia em Configurações > Exportar tarefas.
+- Este projeto foi verificado por checagens estáticas, validação do manifest e sintaxe JavaScript. O teste completo em navegador real e a publicação precisam ser confirmados depois de hospedado.
